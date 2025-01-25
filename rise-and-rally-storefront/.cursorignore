@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build directories
+dist/
+build/
+.next/
+.medusa/
+
+# Environment and secrets
+.env
+.env.*
+*.local
+
+# Logs and databases
+*.log
+*.sqlite
+medusa-db.sql
+
+# Cache
+.cache/
+.clinic/
+
+# Development configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# System files
+.DS_Store
+Thumbs.db
